@@ -1,257 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        li {
-            list-style: none;
+        .container{
+            width:1520px;
+            margin:0 auto;
         }
-
+        li{
+            list-style:none;
+        }
         .header {
-            width: 1640px;
-            height: 700px;
-            background: url(images/image2.jpg) no-repeat;
-            background-size: contain;
-            margin-bottom: 20px;
+             width:1640px;
+             height: 700px;
+             background: url("images/image2.jpg") no-repeat;
+             background-size: contain;
+            margin-bottom:  20px;
         }
-
-        .logo {
-            width: 200px;
-            margin: 0 auto;
+        .logo{
+            width:200px;
+            margin:0 auto;
         }
-
-        .nar ul li {
-            float: left;
+     .nar ul li {
+            float:left;
             margin: 0 13px;
-        }
+     }
+      
+      .nav ul li a {
+        display: block;
+        height:42px; 
+        padding:0 150px;
+        float:left;
+         line-height: 1px;
+         color:#fff;
+        text-decoration :none;
 
-        .nav ul li a {
-            display: block;
-            height: 42px;
-            padding: 0 150px;
-            float: left;
-            line-height: 1px;
-            color: #fff;
-            text-decoration: none;
-
-        }
-
-        .nav span {
-
-            width: 164px;
-            height: 268px;
-        }
-
+       }
+       .nav span {
+        
+        width:164px;
+         height: 268px;
+       }
+     
         .start0 {
-            width: 1640px;
-            height: 420px;
-            background-color: #eae7e8;
-            display: flex;
-            justify-content: center;
+            width:1640px;
+             height: 420px;
+             background-color :#eae7e8;
+             display:flex;
+             justify-content: center;
         }
+       .start1 {
 
-        .start1 {
-
-
-            height: 20px;
-            padding-top: 25px;
-        }
-
-        .start2 {
-
-            height: 20px;
-            padding-top: 25px;
-        }
-
-
-        .part2 {
-            width: 1640px;
-            height: 844px;
-            background-color: #fff;
-            text-align: center;
-
-            font-size: 23px;
-
-
-        }
-
-        .part2-last {
-            margin-top: 680px;
-            background: url(images/image5.png) no-repeat;
-            background-position: center;
-            background-size: 200px auto;
-            position :absolute;
-            margin-left: 700px;
-
-        }
-
-        .part2-last a {
-            text-align: center;
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            height: 42px;
-            padding: 0 150px;
-           margin-left: 50px;
           
+            height :20px;
+            padding-top:25px;
+       }
+        .start2 {
+            
+            height :20px;
+            padding-top:25px;
+       }
+       
 
+       .part2{
+         width:1640px;
+         height: 844px;
+         background-color: #fff;
+        text-align: center;
+       
+        font-size: 23px;
+        
+    
+       }
+       #div1,
+       #div2,
+       #div3 {
+         width:300px;
+        height:100px;
+         border:80px #fff solid;
+         float:left;
+         position :relative;
+         top: -120px;
+       }
+      
+       .part2-last{
+        margin-top: 300px;
+          background: url(images/image5.png) no-repeat;
+          background-position: center;
+          background-size: 200px auto;
+            position :absolute;
+            margin-left:600px;
+       }
+        .part2-last a{
+           text-align: center;
+         color:#fff;
+        text-decoration :none;
+        display: block;
+        height:42px; 
+        padding:0 150px;
+           margin-left:10px; 
+       
+       }
+       h1 {
+         line-height: 8.5;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       h3::before {
+        content:"[";
+       }
+       h3::after{
+        content : "]";
+       }
+       .icon a {
+        text-align: center;
+        text-decoration :none;
+         display:flex;
+         justify-content: center;
+        align-items: center;
+       
+       
+       }
+     
+       .part3{
+        width:1640px;
+         height: 390px;
+          
+         
+       }
+       .part4{
+        width:1640px;
+         height: 347px;
+        background-color: #6f6d6d;
+        display :flex;
+        justify-content: center;
+        align-items: center;
+       }
+       
+       .part4-1{
+         width:650px;
+         height: 300px;
+         background-color: #fff;
+         text-align: center;
+       }
+      .part4-2 image{
+        display:block;
+        margin:0 auto;
+       margin-top: 100px;
+      }
+     
+      .text4-1{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+       .part5{
+        width:1640px;
+         height: 1003px;
+        background-color: #fff;
+         
+      }
+      .part5-0{
+        
+         text-align: center;
+         margin-top: 100px;
+      }
+      .firstim,
+      .secim{
+         margin-top: 20px;
+      }
+     .part5-1,
+    .part5-4{
+        width:100px;
+         height: 30px;
+        margin-left: 250px;
+     }
+     .part5-2,
+     .part5-5{
+        width:100px;
+         height: 30px;
+        
+         margin-left: 180px;
+
+     }
+     .part5-3,
+     .part5-6{
+        width:100px;
+         height: 30px;
+       margin-left: 200px;
+     }
+     .part5-last{
+        margin-top: 120px;
+          background: url(images/image5.png) no-repeat;
+          background-position: center;
+          background-size: 200px auto;
+
+     }
+    .part5-last a{
+        text-align: center;
+         color:#fff;
+        text-decoration :none;
+        display: block;
+        height:42px; 
+        padding:0 150px;
+    }
+    .part6{
+         width:1640px;
+         height: 640px;
+         background-color: #474847;
+         background:linear-gradient(to bottom,#474847 50%,transparent 50%) ;
+         position :absolute;
+    }
+    .part6-0{
+    
+        width:868px;
+         height: 550px;
+         background-color:#fff;
+         margin :0 auto;
+         padding-top:5px;
+         
+    }
+  
+    #text1,
+    #text2,
+    #text3
+    {
+        width:490px;
+        height:13px;
+         border:80px :tomato solid;
+         float:right;
+         position :relative;
+         top: -10px;   
+
+    }
+    .part6-last {
+            margin-top: -60px;
+            text-align:center
+            
         }
+    
+ 
+    .part7{
+            width:1640px;
+            height:800px;
+             background: url("images/image38.png") no-repeat;
+             background-size: cover;
+           
+    }
 
-        h1 {
-            line-height: 8.5;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        h3::before {
-            content: "[";
-        }
-
-        h3::after {
-            content: "]";
-        }
-
-        .icon a {
-            text-align: center;
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-
-        }
-
-        .part3 {
-            width: 1640px;
-            height: 390px;
-
-
-        }
-
-        .part4 {
-            width: 1640px;
-            height: 347px;
-            background-color: #6f6d6d;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .part4-1 {
-            width: 650px;
-            height: 300px;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        .part4-2 image {
-            display: block;
-            margin: 0 auto;
-            margin-top: 100px;
-        }
-
-        .text4-1 {
-            text-align: center;
-            margin-top: 50px;
-            margin-left: 150px;
-            margin-right: 150px;
-        }
-
-        .part5 {
-            width: 1640px;
-            height: 1003px;
-            background-color: #fff;
-
-        }
-
-        .part5-0 {
-
-            text-align: center;
-            margin-top: 100px;
-        }
-
-        .firstim,
-        .secim {
-            margin-top: 20px;
-        }
-
-        .part5-1,
-        .part5-4 {
-            width: 100px;
-            height: 30px;
-            margin-left: 250px;
-        }
-
-        .part5-2,
-        .part5-5 {
-            width: 100px;
-            height: 30px;
-
-            margin-left: 180px;
-
-        }
-
-        .part5-3,
-        .part5-6 {
-            width: 100px;
-            height: 30px;
-            margin-left: 200px;
-        }
-
-        .part5-last {
-            margin-top: 120px;
-            background: url(images/image5.png) no-repeat;
-            background-position: center;
-            background-size: 200px auto;
-
-        }
-
-        .part5-last a {
-            text-align: center;
-            color: #fff;
-            text-decoration: none;
-            display: block;
-            height: 42px;
-            padding: 0 150px;
-        }
-
-        .part6 {
-            width: 1640px;
-            height: 640px;
-            background-color: #474847;
-            background: linear-gradient(to bottom, #474847 50%, transparent 50%);
-        }
-
-        .part6-0 {
-            width: 868px;
-            height: 550px;
-            background-color: #fff;
-            margin: 0 auto;
-
-            padding-top: 25px;
-        }
-
-        .part6-1 p .part6-2 p .part6-3 p {
-            margin-left: 10px;
-        }
-
-        .part6-last {
-            text-align: center
-        }
-
-        .part7 {
-            width: 1640px;
-            height: 550px;
-            height: 20px;
-            padding-top: 25px;
-        }
+   
+    
     </style>
 </head>
-
+                                                                                                    
 <body>
-    <div class="header">
+    <div class="container">
+        <div class="header">
         <div class="logo">
             <span>
                 <image src="images/image56.png"></image>
@@ -261,147 +267,154 @@
             <ul>
                 <li><a href="#">新品推荐&nbsp;</a></li>
                 <li><a href="#">在线购买产品</a></li>
-
+               
                 <li><a href="#">企业礼包</a></li>
                 <li><a href="#">品牌介绍</a></li>
             </ul>
-
+           
         </div>
 
-
+       
     </div>
     <!--头部分结束-->
     <div class="start0">
         <div class="start1">
             <image src="images/image3.png"></image>
-
-        </div>
+            
+        </div >
         <div class="start2">
             <image src="images/image1.png"></image>
         </div>
-
+        
     </div>
     <!--第二张结束-->
     <div class="part2">
         <div class="part2-0">
-            <h1>LAMT各系列</h1>
+          <h1>LAMT各系列</h1>
+         </div>
+       
+    
+         <div id="div1">
+        <p>
+        <h3>恒星系列&nbsp;墨水笔</h3>LAMY恒星系列延续了LAMY的时尚造型,打造出锦上添花的极致品质,独特的凹陷式笔握以及弹性铜线笔夹丰富的颜色让LAMY恒星系列突破传统,散发无限魅力。</p>
         </div>
-        <span>
+     
+       
 
-
-            <p class="test1">
-            <h3>恒星系列&nbsp;墨水笔</h3>LAMY恒星系列延续了LAMY的时尚造型,打造出锦上添花的极致品质,独特的凹陷式笔握以及弹性铜线笔夹丰富的颜色让LAMY恒星系列突破传统,散发无限魅力。</p>
-        </span>
-
-        <span>
-            <p class="test2">
-            <h3>狩猎系列限量色墨水笔</h3>色彩丰富，颜色亮丽，不仅是可以作为书,宽大的笔夹设计,可随时夹在包带、牛仔裤、笔身通体材质采用车用强力ABS材料。</p>
-        </span>
-
-
-        <span>
-            <p class="test3">
-            <h3>喜悦系列美术笔</h3>用以绘图、写艺术字、艺术签字,扁平状的笔尖设计，适合书写艺术字 立体感极佳.1、1.5、1.9三种笔尖可供选择 经典又与众不同，显示出独特的欣赏品味。</p>
-        </span>
+        <div id="div2">
+         <p >
+          <h3>狩猎系列限量色墨水笔</h3>色彩丰富，颜色亮丽，不仅是可以作为书,宽大的笔夹设计,可随时夹在包带、牛仔裤、笔身通体材质采用车用强力ABS材料。</p>
+        </div>
+       
+        <div id="div3">
+          <p >
+        <h3>喜悦系列美术笔</h3>用以绘图、写艺术字、艺术签字,扁平状的笔尖设计，适合书写艺术字 立体感极佳.1、1.5、1.9三种笔尖可供选择 经典又与众不同，显示出独特的欣赏品味。</p>
+        </div>
+        
+        
+        
+        <div class="part2-last">
+            <a href ="#">了解详情</a>
+        </div>
     </div>
-    <div class="part2-last">
-        <a href="#">了解详情</a>
-    </div>
-
-    </div>
+     
+    
+    
 
     <div class="part3">
         <image src="images/image43.png"></image>
-
+    
     </div>
     <div class="part4">
-        <div>
+        <div >
             <image src="images/image7.png"></image>
         </div>
-
-        <div class="part4-1">
-            <div class="part4-2">
-                <image src="images/image8.png"></image>
-            </div>
-            <div class="text4-1">
-                <p>使得令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种材质，也许足以成就出这款永恒的设计。产品本身是体现不同加工程序和制造工艺。手工打磨的哑光拉丝表面充分体现了品牌对细节的注重</p>
-            </div>
-
-        </div>
+        
+         <div class="part4-1">
+            <br>
+                <div class="part4-2">
+                    <image src="images/image8.png"></image>
+                </div>
+                <div class="text4-1">
+                    <p>使得令人难以置信的生产技术和坚持极高水平的精准要求，仅使用一种材质，也许足以成就出这款永恒的设计。产品本身是体现不同加工程序和制造工艺。手工打磨的哑光拉丝表面充分体现了品牌对细节的注重</p>
+                </div>
+                
+             </div>
     </div>
 
     <div class="part5">
-        <div class="part5-0">
-            <image src="images/image10.png"></image>
-        </div>
-        <div class="firstim">
-            <span class="part5-1">
-                <image src="images/image11.png"></image>
+         <div class="part5-0">
+            <image src ="images/image10.png"></image>
+         </div >
+         <div class="firstim">
+                <span class="part5-1">
+                    <image src="images/image11.png"></image>
                 </spanc>
-                <span class="part5-2">
-                    <image src="images/image13.png"> </image>
-                </span>
-                <span class="part5-3">
-                    <image src="images/image15.png"></image>
-                </span>
+                 <span class="part5-2">
+                    <image src ="images/image13.png"> </image>
+                  </span>
+                 <span class="part5-3">
+                    <image src ="images/image15.png"></image>
+                 </span>
 
-        </div>
-        <div class="secim">
-            <span class="part5-4">
-                <image src="images/image12.png"></image>
-                </spanc>
-                <span class="part5-5">
-                    <image src="images/image14.png"> </image>
-                </span>
-                <span class="part5-6">
-                    <image src="images/image16.png"></image>
-                </span>
-        </div>
-        <div class="part5-last">
-            <a href="#">
-                戳我抢购
-            </a>
-
-        </div>
+            </div>
+            <div class="secim">
+                <span class="part5-4">
+                    <image src="images/image12.png"></image>
+                    </spanc>
+                    <span class="part5-5">
+                        <image src="images/image14.png"> </image>
+                    </span>
+                    <span class="part5-6">
+                        <image src="images/image16.png"></image>
+                    </span>
+            </div>
+            <div class="part5-last">
+                <a href="#">
+                   戳我抢购
+                </a>
+                
+            </div>
 
     </div>
-    <div class="part6">
+    <div class ="part6">
+        <br><br>
         <div class="part6-0">
-            <div class="part6-1">
-
-                <image src="images/image33.png"></image>
-
-                <p>
-                    You make millions of decisions that is mean nothing, and then one day your order takes out life.
-                </p>
-            </div>
-            <div class="part6-2">
-                <image src="images/image34.png"></image>
-                <p>
+                <div >
+                
+                    <image src="images/image33.png"></image>
+                   
+                        <p id="text1">
+                            You make millions of decisions that is mean nothing, and then one day your order takes out life.
+                        </p>
+                </div>
+                <div>
+                   <image  src ="images/image34.png"></image>
+                   <p id="text3">
                     It's sad when you realize you aren't
                     as important to someone as you
                     thought you were.
-                </p>
-            </div>
-            <div class="part6-3">
-                <image src="images/image36.png"></image>
-                <p>
+                   </p>
+                </div>
+                <div>
+                   <image src ="images/image36.png"></image>
+                   <p id="text2">
                     Love is unequal, so don't count how much one contributes,and which is more active.
-                </p>
+                   </p>
 
-            </div>
+                </div>
+        
+                 <div class="part6-last">
+                         <image src ="images/image35.png">
+                        </image>
+                  </div>
         </div>
-        <div class="part6-last">
-            <image src="images/image35.png">
-            </image>
-        </div>
-    </div>
     <div class="part7">
-        <image src="images/image38.png"></image>
+     
+       
     </div>
-
-
+  
+</div>
 
 </body>
-
 </html>
