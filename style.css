@@ -1,7 +1,7 @@
-<style>
-*{
+
+.container{
     width: 1520px;
-    margin :auto;
+    margin :0 auto;
 }
 
 li {
@@ -263,4 +263,3 @@ h3::after {
 
 }
 
-</style>
